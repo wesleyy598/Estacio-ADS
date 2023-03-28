@@ -1,0 +1,49 @@
+var func1 = {
+    i: 10,
+    cargo: "Atendente",
+    salario: 1000,
+    desconto: function(desc) {
+      return desc(this.salario)
+    }
+  }
+
+  var func2 = {
+    i: 11,
+    cargo: "Gerente",
+    salario: 10000,
+    desconto: function(desc) {
+      return desc(this.salario)
+    }
+  }
+  
+console.log(func1.desconto((sal) => sal * 0.1))
+console.log(func2.desconto((sal) => {
+            if (2==2) return sal * 0.2
+        }))
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+function calc (segundos){
+    let hora = parseInt(segundos / 3600)
+    let resto = segundos % 3600
+    let minutos = parseInt(resto / 60)
+    let seg = resto % 60
+    const tempo = {
+        hora: hora,
+        minutos: minutos,
+        segundos: seg
+    }
+    return tempo
+}
+
+console.log(calc(10000))

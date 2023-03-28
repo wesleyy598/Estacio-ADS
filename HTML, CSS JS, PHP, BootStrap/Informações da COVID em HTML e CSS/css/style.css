@@ -1,0 +1,34 @@
+/*GERAIS*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  
+  /*BARRA DE NAVEGAÇÃO*/
+  
+  #logo {
+    max-height: 40px;
+  }
+  
+  @media (min-width: 992px) {
+    .nav-cta {
+      border: 2px solid #f4931f;
+      border-radius: 10px;
+      color: #f4931f !important;
+      padding: 0.5rem 2rem !important;
+      margin-left: 30px !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-item-content > h2 {
+      font-size: 42px;
+    }
+    .carousel-item-content > p {
+      font-size: 18px;
+      margin: 0 0 30px;
+    }
+  }
+
+ 

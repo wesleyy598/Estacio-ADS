@@ -1,0 +1,19 @@
+#cabecalho {
+  width :100%;
+  height :100%;
+  border : 1px solid black;
+  background : yellow;
+}
+
+#conteudo {
+  min-height : 300px;
+ border: 1px solid black;
+ background :  lightblue;
+  
+}
+
+#rodape{
+  height :50px%;
+  border : 1px solid black;
+  background : darkgreen;
+}
